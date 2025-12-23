@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_decoder_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_decoder" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1777667fs"></ZoomStartTime>
+      <ZoomEndTime time="192477668fs"></ZoomEndTime>
+      <Cursor1Time time="37778000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="91"></NameColumnWidth>
+      <ValueColumnWidth column_width="93"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/tb_decoder/decoder_inst/in1" type="logic">
+      <obj_property name="ElementShortName">in1</obj_property>
+      <obj_property name="ObjectShortName">in1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decoder/decoder_inst/in2" type="logic">
+      <obj_property name="ElementShortName">in2</obj_property>
+      <obj_property name="ObjectShortName">in2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decoder/decoder_inst/in3" type="logic">
+      <obj_property name="ElementShortName">in3</obj_property>
+      <obj_property name="ObjectShortName">in3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decoder/decoder_inst/out" type="array">
+      <obj_property name="ElementShortName">out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>
